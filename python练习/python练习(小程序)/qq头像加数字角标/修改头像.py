@@ -1,7 +1,7 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image
 
 
-def add_num():
+""" def add_num():
     img = Image.open("/Users/lixiuwen/Downloads/wallhaven-39gogv.jpg")
     img.show()
 
@@ -9,4 +9,4 @@ def add_num():
 
 
 if __name__ == '__main__':
-    add_num()
+    add_num() """
