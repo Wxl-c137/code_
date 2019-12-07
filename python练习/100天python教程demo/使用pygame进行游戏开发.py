@@ -27,7 +27,13 @@ def main():
 
 if __name__ == '__main__':
     main()
-def if condition:
+
+""" 
+def aaa():
+
+
+if condition:
     pass
 else:
     pass
+ """
