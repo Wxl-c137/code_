@@ -3,8 +3,9 @@
     "python.testing.pytestArgs": [
         "python练习(小程序)"
     ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": true,
+    "python.testing.pytestEnabled": true,
+    "python.formatting.provider": "yapf"
 
 }
