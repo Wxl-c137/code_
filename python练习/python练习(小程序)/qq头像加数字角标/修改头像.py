@@ -16,7 +16,5 @@ def add_num(img):
 
 
 if __name__ == '__main__':
-    image = Image.open(
-        '/Users/lixiuwen/Library/Mobile Documents/com~apple~CloudDocs/mac备份/1x/资源 2.png'
-    )
+    image = Image.open('/Users/lixiuwen/Desktop/未命名导出/IMG_2142.jpg')
     add_num(image)
