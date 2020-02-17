@@ -9,3 +9,29 @@
 @WebSite :   null
 '''
 # Start typing your code from here
+import string
+import random
+
+code = string.ascii_letters + string.digits
+# print(code)
+
+
+def getCode():
+    return "".join(random.sample(code, 4))
+
+
+# print(getCode())
+
+
+def key(group):
+    return "—".join([getCode() for i in range(group)])
+
+
+# print(key(4))
+
+
+def keys(n):
+    return "\n".join([key(4) for i in range(n)])
+
+
+print(keys(200))

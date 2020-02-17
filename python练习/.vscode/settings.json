@@ -1,8 +1,5 @@
 {
     "python.pythonPath": "/usr/local/bin/python3",
-    "code-runner.executorMap": {
-        "python": "set PYTHONIOENCODING=utf-8 && /usr/local/bin/python3",
-    },
     "python.testing.pytestArgs": [
         "python练习(小程序)"
     ],
@@ -21,5 +18,8 @@
     "code-runner.clearPreviousOutput": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf-8 && /usr/local/bin/python3",
+    },
 
 }
