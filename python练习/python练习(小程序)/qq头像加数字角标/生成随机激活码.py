@@ -24,14 +24,14 @@ def getCode():
 # print(getCode())
 
 
-#获取4列4位激活码 以"—"串联起来
+# 获取4列4位激活码 以"—"串联起来
 def key(group):
     return "—".join([getCode() for i in range(group)])
 
 
 # print(key(4))
 
-#获取200组激活码  每组4列4位
+# 获取200组激活码  每组4列4位
 
 
 def keys(n):
