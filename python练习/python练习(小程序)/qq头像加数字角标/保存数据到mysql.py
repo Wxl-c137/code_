@@ -35,7 +35,7 @@ def save_to_mysql(id, code):
     cursor = connect.cursor()
     #  链接数据库并设置游标
     # sql_1 = "CREATE TABLE activeCode (id INT PRIMARY KEY,code varchar(255) )"
-    sql = """insert into activeCode(id, code) 
+    sql = """insert into activeCode(id, code)
     VALUES ('%d', '%s');"""
     data = (id, code)
 
