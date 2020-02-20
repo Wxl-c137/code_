@@ -28,7 +28,6 @@ else:
     reslut = '讲个冷笑话'
 
 print(reslut) """
-
 """ # 百分制成绩转成等级制
 
 score = float(input('请输入成绩： '))
@@ -45,7 +44,6 @@ else:
     grade = 'E'
 
 print('你的等级是:', grade) """
-
 """ # 输入三条边长 判断能否构成三角形，并计算周长和面积
 
 
