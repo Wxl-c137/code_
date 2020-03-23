@@ -1,8 +1,12 @@
 {
-    "folders": [{
-        "path": "."
-    }
-],
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "C:\\Users\\lulu\\Desktop\\nvshens-scrapy-master"
+        }
+    ],
 "settings": {
     "python.pythonPath": "/Library/Developer/CommandLineTools/usr/bin/python3"
 }
