@@ -35,8 +35,8 @@ else:
     grade = 'E'
 print('你的等级为:', grade) """
 
-#输入三条边长，如果能构成三角形就计算周长和面积。
-a = float(input('请如边长a:'))
+# 输入三条边长，如果能构成三角形就计算周长和面积。
+""" a = float(input('请如边长a:'))
 b = float(input('请如边长b:'))
 c = float(input('请如边长c:'))
 if a + b > c and a + c > b and b + c > a:
@@ -45,4 +45,4 @@ if a + b > c and a + c > b and b + c > a:
     area = (p * (p - a) * (p - b) * (p - c))**0.5
     print('面积： %f' % (area))
 else:
-    print('不能组成三角形')
+    print('不能组成三角形') """
