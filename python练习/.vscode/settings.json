@@ -1,0 +1,25 @@
+{
+    "python.pythonPath": "C:\\Users\\lulu\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "python.testing.pytestArgs": [
+        "python练习(小程序)"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "python.formatting.provider": "yapf",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.promptToConfigure": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "set PYTHONIOENCODING=utf-8 && /usr/local/bin/python3",
+    },
+
+}
