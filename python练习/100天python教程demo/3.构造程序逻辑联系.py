@@ -17,8 +17,8 @@ count = int(input('请输入数列长度'))
 for i in range(count + 1):
     itme = list[i] + list[i + 1]
     list.append(itme)
-
-print(list) """
+ """
+print(list)
 
 # 找出10000以内的完美数。
 """ class Solution:
@@ -34,6 +34,7 @@ print(list) """
                 sum += num / i
             i += 1
 
-        return sum - num == num """
+        return sum - num == num
+ """
 
 # 寻找水仙花数
