@@ -51,3 +51,16 @@ print(list)
         z = 100 - x - y
         if 5 * x + 3 * y + z / 3 == 100:
             print('公鸡: %d只, 母鸡: %d只, 小鸡: %d只' % (x, y, z)) """
+
+from random import randint
+
+money = 1000
+
+while money > 0:
+    print('你的资产为：'，money)
+    needs_go_on = False
+    while True:
+        debt = int(input('请下注：'))
+        if 0 < debt <= money:
+            break
+    first = randint(1,6) + randint(1,6)
