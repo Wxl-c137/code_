@@ -37,3 +37,18 @@ print(list) """
         return sum - num == num """
 
 # 寻找水仙花数
+""" for num in range(100, 1000):
+    low = num % 10
+    mid = num // 10 % 10
+    high = num // 100
+    if num == low**3 + mid**3 + high**3:
+        print(num)
+ """
+
+# 百鸡百钱
+""" for x in range(0, 20):
+    for y in range(0, 33):
+        z = 100 - x - y
+        if 5 * x + 3 * y + z / 3 == 100:
+            print('公鸡: %d只, 母鸡: %d只, 小鸡: %d只' % (x, y, z))
+ """
