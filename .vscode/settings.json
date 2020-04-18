@@ -2,5 +2,20 @@
     "python.pythonPath": "C:\\Users\\lulu\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "python.linting.flake8Enabled": true,
     "on.formatting.provider": "yapf",
-    "python.linting.flake8Args": ["--max-line-length=128"]
+    "python.linting.flake8Args": [
+        "--max-line-length=128"
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ]
 }
