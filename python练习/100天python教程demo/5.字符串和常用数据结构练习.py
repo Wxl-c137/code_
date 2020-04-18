@@ -66,7 +66,7 @@ month = int(input('请输入月份：'))
 day = int(input('请输入日期：'))
 
 # def leapyear(year):
-if year%4 == 0:
+if year % 4 == 0:
     febdays = 29
 else:
     febdays = 28
