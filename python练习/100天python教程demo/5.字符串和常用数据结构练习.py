@@ -36,7 +36,6 @@ def generat_code(code_len=4):
 generat_code() """
 
 # 获取文件后缀的函数
-
 """ 
 def get_suffix(filename, has_dot=False):
     pos = filename.rfind('.')
@@ -47,6 +46,3 @@ def get_suffix(filename, has_dot=False):
         return ''  """
 
 # 设计一个函数返回传入列表中最大和第二大的数
-
-def max2()
-    m1, m2 = 
